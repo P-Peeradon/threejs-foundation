@@ -2,7 +2,7 @@
   "name": "threejs-foundation",
   "version": "1.0.0",
   "description": "What if you could construct entire interactive 3D cities, simulate real-time floodplains, or manipulate complex mathematical curves directly inside a standard web browser without installing third-party plugins?",
-  "main": "index.ts",
+  "main": "main.ts",
   "scripts": {
     "dev": "tsx watch index.ts"
   },
