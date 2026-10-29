@@ -22,3 +22,19 @@ renderer.setSize(
 renderer.setPixelRatio(
     Math.min(window.devicePixelRatio, 2)
 );
+
+// geometry, material and mesh 
+const geometry = new THREE.BoxGeometry(1.5, 1.5, 1.5); 
+const material = new THREE.MeshBasicMaterial({ color: 0x00fff0, wireframe: true }); 
+const cube = new THREE.Mesh(geometry, material); 
+scene.add(cube); 
+
+// animation 
+function animate() { 
+    requestAnimationFrame(animate); // Continuous rotation 
+    cube.rotation.x += 0.01; 
+    cube.rotation.y += 0.01; 
+    renderer.render(scene, camera); 
+} 
+
+animate();
