@@ -1,0 +1,30 @@
+{
+  "name": "threejs-foundation",
+  "version": "1.0.0",
+  "description": "What if you could construct entire interactive 3D cities, simulate real-time floodplains, or manipulate complex mathematical curves directly inside a standard web browser without installing third-party plugins?",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-Peeradon/threejs-foundation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-Peeradon/threejs-foundation/issues"
+  },
+  "homepage": "https://github.com/P-Peeradon/threejs-foundation#readme",
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.186.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
