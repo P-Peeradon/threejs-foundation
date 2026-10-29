@@ -17,7 +17,7 @@ for (let row = 0; row < boardSize; row++) {
         const tile = new THREE.Mesh(tileGeometry, tileMaterial); 
         // Offset positions by subtracting half-width (3.5) to center at origin 
         tile.position.x = col - 3.5; 
-        tile.position.y = 0; 
+        tile.position.y = tile.position.y = Math.sin(row * 0.5) * Math.cos(col * 0.5) * 0.5;
         tile.position.z = row - 3.5; 
         scene.add(tile); 
     } 
