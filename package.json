@@ -4,7 +4,8 @@
   "description": "What if you could construct entire interactive 3D cities, simulate real-time floodplains, or manipulate complex mathematical curves directly inside a standard web browser without installing third-party plugins?",
   "main": "main.ts",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "publish": "npx tsc main.ts --outDir ./out"
   },
   "repository": {
     "type": "git",
